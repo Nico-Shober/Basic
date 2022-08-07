@@ -7,6 +7,8 @@
 enum Day {Sunday = 0, Monday = 1, Tuesday = 2, Wednesday = 3, Thursday = 4, Friday = 5, Saturday = 6};
 template <typename T, typename U> // template function, usign 2 different data types
 
+// added in VS Code through github, test
+
 auto max(T x, U y){
     return (x > y) ? x : y;
 }
